@@ -12,4 +12,35 @@
   <p><b><a href="https://www.bilibili.com/">这是一个链接</a></b></p>
 </body>
 </html>
-#day1  
+#day1 
+
+
+<html>
+<body>
+
+<h1>网页</h1>
+
+<p>段落</p>
+
+<script>
+var x,y,z
+x="$"
+y="$$"
+z="$$$"
+console.log(x);
+console.log(y);
+console.log(z);
+function factorial (num) { 
+    if (num < 0) { 
+        return -1; 
+    } else if (num === 0 || num === 1) { 
+        return 1; 
+    } else { 
+        return (num * factorial(num - 1)); 
+    } 
+}
+console.log(factorial (3));
+</script>
+
+</body>
+</html>
